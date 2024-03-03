@@ -25,7 +25,7 @@ const LoginForm = () => {
         rules={{
           required: {
             value: true,
-            message: 'Käyttäjänimi vaaditaan vitun pelle',
+            message: 'Käyttäjänimi vaaditaan.',
           },
         }}
         render={({field: {onChange, onBlur, value}}) => (
